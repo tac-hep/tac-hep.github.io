@@ -11,5 +11,5 @@ title: Training Modules
 #### List of trainings
 
 * [Software Engineering for Scientific Computing](/training-modules/software-engineering)
-* [GPU and FPFA training module](/training-modules/uw-gpu-fpga)
+* [GPU and FPGA training module](/training-modules/uw-gpu-fpga)
 

@@ -1,9 +1,10 @@
 ---
 layout: collaborator
 active: true
-e-mail: koraka@wisc.edu
+e-mail: charis.kleio.koraka@cern.ch
 institution: University of Wisconsin–Madison
-name: Charis Koraka
+name: Charis Kleio Koraka
+github-username: ckoraka
 photo: "/assets/images/team/Charis-Koraka.jpg"
 shortname: ckoraka
 title: Postdoc

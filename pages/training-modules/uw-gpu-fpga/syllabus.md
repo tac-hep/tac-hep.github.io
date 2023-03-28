@@ -1,5 +1,5 @@
 ---
-permalink: /trainingmodules/uw-gpu-fpga/syllabus.html
+permalink: /training-modules/uw-gpu-fpga/syllabus.html
 layout: default
 title: Course syllabus
 ---
@@ -101,7 +101,7 @@ title: Course syllabus
 <li>Each weekly assignment is due Friday of the next week&nbsp;</li>
 <li>Final project is due end (by Sunday) of week 7, Friday April 30th.</li>
 </ul>
-<p style="text-align: justify;"><span style="color: #cc0000;"><strong>Topics covered:</strong></span></p>
+<p style="text-align: justify;"><span style="color: #cc0000;"><strong>TOPICS COVERED</strong></span></p>
 <h3 style="text-align: justify;">GPU Module</h3>
 <h4 style="text-align: justify;">Week 1</h4>
 <ul>
@@ -174,25 +174,23 @@ title: Course syllabus
 <li>Digital systems: some important components used on the FPGAs like registers (flip-flops), DSPs, LUTs;</li>
 <li>Basic concepts of Hardware design: Clock Frequency, Latency and Pipelining, Throughput</li>
 </ul>
+
 <h4 style="text-align: justify;">Week 3-4</h4>
 <ul>
 <li>Vivado High-level Synthesis (HLS): Basic overview, understanding of HLS, its purpose, benefit and usage;</li>
 <li>Mathematical Operations, Conditional statements, Loops, functions in HLS</li>
 <li>HLS: Linear Algebra library functions, DSP library functions, C++ arbitrary precision types, datatypes for efficient hardware, Design analysis and optimisation and RTL verification;</li>
-</ul>
-<ul>
 <li>Case study of trigger algorithms developed for the LHC experiments</li>
-</ul>
-<p style="text-align: justify;">- &nbsp; Introduction to CMS experiment and Level-1 Trigger system</p>
-<ul>
+<li> Introduction to CMS experiment and Level-1 Trigger system</li>
 <li>Basic introduction to VHDL and design flow</li>
-<li>Quick introduction and guide to HLS4ML&nbsp;</li>
+<li>Quick introduction and guide to HLS4ML</li>
 </ul>
+
 <h4 style="text-align: justify;">Week 5-6-7</h4>
 <ul>
 <li>Project: Write an algorithm in C/C++; use HLS to make a bit file which can be burned in hardware.</li>
 </ul>
-<p style="text-align: justify;">Additional Read (if time permit)</p>
+<p style="text-align: justify;">Additional Read (if time permit) : </p>
 <p style="text-align: justify;">- &nbsp; Computation-centric Algorithms</p>
 <p style="text-align: justify;">- &nbsp; Control centric algorithms</p>
 <p style="text-align: justify;">- &nbsp; Integration of multiple programs</p>
