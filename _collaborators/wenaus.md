@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Torre Wenaus
+institutionkey: bnl
 institution: Brookhaven National Laboratory
 e-mail: wenaus@gmail.com
 github-username: wenaus

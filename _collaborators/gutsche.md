@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Oliver Gutsche
+institutionkey: fnal
 institution: Fermilab
 e-mail: gutsche@fnal.gov
 github-username: gutsche
