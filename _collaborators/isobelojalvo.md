@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Isobel Ojalvo
+institutionkey: princeton
 institution: Princeton University
 e-mail: iojalvo@princeton.edu
 github-username: isobelojalvo

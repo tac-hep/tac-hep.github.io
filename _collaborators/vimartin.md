@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Verena Martinez Outschoorn
+institutionkey: umass-amherst
 institution: University of Massachusetts Amherst
 e-mail: vimartin@umass.edu
 photo: "/assets/images/team/outschoorn-verena-b.jpeg"

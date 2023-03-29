@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Lindsey Gray
+institutionkey: fnal
 institution: Fermilab
 e-mail: lagray@fnal.gov  
 github-username: lgray

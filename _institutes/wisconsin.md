@@ -2,6 +2,7 @@
 layout: institute
 category: university
 title: University of Wisconsin - Madison
+shortname: wisconsin
 latitude: 
 longitude: 
 url: https://www.physics.wisc.edu

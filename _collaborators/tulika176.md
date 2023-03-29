@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Tulika Bose
+institutionkey: wisconsin
 institution: University of Wisconsin - Madison
 e-mail: tulika@hep.wisc.edu
 github-username: tulika176
