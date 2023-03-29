@@ -9,7 +9,7 @@ github-username: SridharaDasu
 photo: "/assets/images/team/Sridhara-Dasu.jpeg"
 shortname: SridharaDasu
 title: 
-website: [https://www.hep.wisc.edu/home/dasu/]
+website: https://www.hep.wisc.edu/home/dasu/
 presentations:
 ---
 
