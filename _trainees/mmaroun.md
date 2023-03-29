@@ -5,7 +5,8 @@ name: Matthew Maroun
 institution: University of Massachusetts Amherst
 e-mail: mmaroun@umass.edu
 github-username: mmaroun0
-photo: "assets/images/trainees/MarounHead.jpg"![MarounHead](https://user-images.githubusercontent.com/103769249/228678589-7fd84e32-08e3-4a2e-8761-c4c4c7bc5aeb.jpg)
+photo: "assets/images/trainees/MarounHead.jpg"![MarounHead](https://user-images.githubusercontent.com/103769249/228679147-934b4a96-6c37-4807-8913-8cb5e416a62c.jpg)
+
 
 
 
