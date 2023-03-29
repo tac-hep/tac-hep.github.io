@@ -4,11 +4,11 @@ active: true
 e-mail: charis.kleio.koraka@cern.ch
 institution: University of Wisconsin–Madison
 name: Charis Kleio Koraka
-github-username: ckoraka
 photo: "/assets/images/team/Charis-Koraka.jpg"
 shortname: ckoraka
+github-username: ckoraka
 title: Postdoc
-website:
+website: https://www.physics.wisc.edu/directory/koraka-charis-kleio/
 presentations:
 ---
 
