@@ -5,7 +5,8 @@ name: Matthew Maroun
 institution: University of Massachusetts Amherst
 e-mail: mmaroun@umass.edu
 github-username: mmaroun0
-photo: 
+photo: "assets/images/trainees/Matthew-Maroun.jpg"![Matthew-Maroun](https://user-images.githubusercontent.com/103769249/228677661-c8d346da-17a5-42fc-8cfd-758d6fc499a1.JPG)
+
 shortname: mmaroun
 title: 
 website: https://www.umass.edu/physics/people/matthew-maroun
