@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Patrick Gartung
+institutionkey: fnal
 institution: Fermilab
 e-mail: gartung@fnal.gov
 github-username: gartung

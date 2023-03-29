@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 e-mail: charis.kleio.koraka@cern.ch
+institutionkey: wisconsin
 institution: University of Wisconsin–Madison
 name: Charis Kleio Koraka
 photo: "/assets/images/team/Charis-Koraka.jpg"
