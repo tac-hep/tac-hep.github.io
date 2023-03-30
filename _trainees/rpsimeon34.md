@@ -12,6 +12,9 @@ dates:
 photo: /assets/images/team/Ryan-Simeon.jpg
 institution: University of Wisconsin - Madison
 e-mail: rsimeon@wisc.edu
+website: https://www.physics.wisc.edu/directory/simeon-ryan-p/
+networks:
+  - cms
 project_goal: >
     I am working on the set up and configuration of an analysis facility at UW-Madison. This work is being 
     done in collaboration with scientists at Fermilab and University of Nebraska/IRIS-HEP. Plans include installing 
@@ -25,3 +28,9 @@ presentations:
 current_status:
 github-username: rpsimeon34
 ---
+
+### Biography
+
+I am a first-year graduate student at the University of Wisconsin - Madison, working in the CMS group and advised by Professor Sridhara Dasu.
+
+My interests include harnessing computational power and statistical/machine learning techniques to capitalize on the wealth of data produced in modern and future particle physics experiments.
