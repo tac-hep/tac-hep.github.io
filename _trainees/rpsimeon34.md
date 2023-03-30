@@ -1,15 +1,13 @@
 ---
-layout: fellow
-pagetype: fellow
+layout: collaborator
 shortname: rpsimeon34
-permalink: /fellows/rpsimeon34.html
-fellow-name: Ryan Simeon
+name: Ryan Simeon
 title: Ryan Simeon - TAC-HEP Fellow
 active: True
 dates:
   start: 2023-01-23
   end:
-photo: /assets/images/team/Ryan-Simeon.jpg
+photo: /assets/images/trainees/Ryan-Simeon.jpeg
 institution: University of Wisconsin - Madison
 e-mail: rsimeon@wisc.edu
 website: https://www.physics.wisc.edu/directory/simeon-ryan-p/
