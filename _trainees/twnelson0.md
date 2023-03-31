@@ -17,7 +17,7 @@ presentations:
 ## Project
 I am working on porting the CMS E/Gamma Reconstruction code to run on GPUs. Currently the project is focused on the electron seeding. I am working on this project with Dr. Charis Koraka, Dr. Matti Kortelainen and Dr. Andrea Bocci. 
 
-## mentors:
+## Mentors
  * Dr. Charis Koraka (University of Wisconsin-Madison)
  * Dr. Tulika Bose (University of Wisconsin-Madison)
  * Dr. Matti Kortelainen (Fermi Lab)
