@@ -23,7 +23,7 @@ The duration of this training is 1 semester (14 weeks). The detailed syllabus an
   - [Lecture 10]({{ site.baseurl }}/404.html) CUDA advanced topics : C++ standards
   - [Lecture 11]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/Profiling_with_Intel_OneAPI-1.pdf) Profiling software with Intel OneAPI Toolset Profilers: Vtune and Advisor 
   - [Lecture 12]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/intro_CUDA_profiling-2.pdf) Introduction to Nvidia profiling tools : Nsight system and Nsight compute
-  - [Lecture 13]({{ site.baseurl }}/404.html) CUDA advanced topics : Managed memory
+  - [Lecture 13]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/20230301-TACHEPManagedMemory.pdf) CUDA advanced topics : Managed memory
   - [Lecture 14]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/TAC-HEP_An_introduction_to_alpaka_Part_1.pdf) Introduction to Alpaka : Performance portability, Alpaka platforms, devices, queues and events 
   - [Lecture 15]({{ site.baseurl }}/assets/pdf/uw-gpu-fpga/TAC-HEP_An_introduction_to_alpaka_Part_2.pdf) Introduction to Alpaka : Memory managment, device functions and kernels, work division
            
