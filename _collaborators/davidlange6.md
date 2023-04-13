@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: David Lange
+institutionkey: princeton
 institution: Princeton University
 e-mail: David.Lange@cern.ch
 github-username: davidlange6

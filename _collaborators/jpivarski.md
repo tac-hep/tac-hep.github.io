@@ -1,6 +1,7 @@
 ---
 layout: collaborator
 active: true
+institutionkey: princeton
 institution: Princeton University
 e-mail: pivarski@princeton.edu
 github-username: jpivarski
