@@ -37,3 +37,18 @@ title: TAC-HEP Collaborators
 </div>
 
 
+
+<h1>TAC-HEP Industry Collaborators</h1><br>
+
+<div class="container-fluid">
+<div class="row">
+{% for person in members %}
+  {% assign institute = site.institutes | find: "shortname", person.institutionkey %}
+    {% if institute.category == "industry" %}
+    {% include standard_person_card.md person=person %}
+    {% endif %}
+{% endfor %}
+</div>
+</div>
+
+
