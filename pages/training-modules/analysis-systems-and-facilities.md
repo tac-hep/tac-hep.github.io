@@ -21,6 +21,5 @@ modern analysis facilities. The goal of the module will be
 to prepare the students to develop scalable, performant and innovative
 tools within the ecosystem.
 
-Coming soon....
-
-
+[Computational HEP Traineeship Summer School](https://indico.cern.ch/event/1293313/timetable/)
+on July 24‒28, 2023.
