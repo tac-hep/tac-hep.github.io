@@ -5,7 +5,7 @@ name: Andrew Toler
 institution: University of Massachusetts Amherst
 e-mail: atoler@umass.edu
 github-username: ajtoler
-photo: "/assets/images/trainees/Andrew-Toler.png"
+photo: "/assets/images/trainees/Andrew-Toler.jpg"
 shortname: ajtoler
 title: 
 website: https://www.umass.edu/physics/people/andrew-toler
