@@ -9,7 +9,7 @@ active: True
 dates:
   start: 2024-01-23
   end: 
-photo: /assets/images/team/Lael-Verace.jpg
+photo: /assets/images/trainees/Lael-Verace.jpg
 institution: University of Wisconsin-Madison
 e-mail: lverace@wisc.edu
 focus-area:
