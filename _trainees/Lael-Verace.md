@@ -1,23 +1,20 @@
 ---
-layout: fellow
-pagetype: fellow
+layout: collaborator
 shortname: Lael-Verace
-permalink: /fellows/Lael-Verace.html
-fellow-name: Lael Verace
+name: Lael Verace
 title: Lael Verace - TAC-HEP Fellow
 active: True
 dates:
   start: 2024-01-23
-  end: 
+  end:
 photo: /assets/images/trainees/Lael-Verace.jpg
-institution: University of Wisconsin-Madison
+institution: University of Wisconsin - Madison
 e-mail: lverace@wisc.edu
-focus-area:
-project_title:
+networks:
+  - cms
 project_goal:
 mentors:
   - <Kevin Black (University of Wisconsin-Madison)
-proposal:
 presentations:
 current_status:
 github-username: Lael-Verace
