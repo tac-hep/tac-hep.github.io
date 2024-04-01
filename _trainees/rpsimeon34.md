@@ -7,7 +7,7 @@ active: True
 dates:
   start: 2023-01-23
   end:
-photo: /assets/images/trainees/Ryan-Simeon.jpeg
+photo: /assets/images/trainees/Ryan-Simeon2024.jpeg
 institution: University of Wisconsin - Madison
 e-mail: rsimeon@wisc.edu
 website: https://www.physics.wisc.edu/directory/simeon-ryan-p/
