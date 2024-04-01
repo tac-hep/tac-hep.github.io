@@ -29,6 +29,12 @@ github-username: rpsimeon34
 
 ### Biography
 
-I am a first-year graduate student at the University of Wisconsin - Madison, working in the CMS group and advised by Professor Sridhara Dasu.
+I am a second-year graduate student at the University of Wisconsin - Madison, working in the CMS group and advised by Professor Sridhara Dasu.
 
-My interests include harnessing computational power and statistical/machine learning techniques to capitalize on the wealth of data produced in modern and future particle physics experiments.
+### Projects
+
+Ryan Simeon is contributing to the Analysis Facilities effort within USCMS computing working with Fermilab scientists Dr. Lindsey Gray and Dr. Nick Smith. He is developing tools that make it easier for physicists to harness large amounts of computing power and big data for scientific analyses. In particular, he is working on a JupyterLab interface that presents users with an environment pre-configured for modern Python-based data analysis and high throughput computing. The work involves integrating with the CMS Tier-2 at UW-Madison and the Center for High Throughput Computing (CHTC) resources. This includes developing a repository of example and tutorial code that guides users from first interaction with contemporary High Energy Physics packages to performing data analysis on a computing cluster (https://github.com/rpsimeon34/wisc-af-examples). He is also contributing to the fsspec-xrootd project (https://github.com/CoffeaTeam/fsspec-xrootd), which is used in the Analysis Facilities community to remotely access CMS simulation and experimental data.
+
+### Mentors
+ * Sridhara Dasu (University of Wisconsin - Madison)
+ * Nick Smith (Fermi National Accelerator Laboratory)
