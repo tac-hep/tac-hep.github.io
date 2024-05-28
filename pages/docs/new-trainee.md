@@ -9,10 +9,10 @@ pagetype: doc
 
 #### TAC-HEP website
 In order to add your information, we request you to please supply a photo ( First_Name-Last_Name.jpg or .png - 320x240 pixels) and a paragraph summarizing your project’s goals.
-You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to [this](https://github.com/uwcms/tac-hep) repo.
+You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to [this](https://github.com/tac-hep/tac-hep.github.io) repo.
 
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/uwcms/tac-hep/tree/main/assets/images/team). It should be 320x240 pixels and in general should be 150kB or less.
-* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/uwcms/tac-hep/tree/main/pages/fellows). See the example below.
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/tac-hep/tac-hep.github.io/tree/main/assets/images/trainees). It should be 320x240 pixels and in general should be 150kB or less.
+* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/tac-hep/tac-hep.github.io/tree/main/_trainees). See the example below.
 
 *Please Note*:  In the markdown file you create, ensure you set the “active” attribute to True – (i.e.  active: True).  Otherwise, your entry will not appear on our Fellows page.
 
