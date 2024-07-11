@@ -16,5 +16,7 @@ presentations:
 
 ### Biography
 
+I am a third year graduate student working in the Observational Cosmology group at University of Wisconsin - Madison.
+
 ### Project interests
 
