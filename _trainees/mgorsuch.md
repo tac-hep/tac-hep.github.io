@@ -10,6 +10,7 @@ shortname: mrgorsuch
 title:
 website: https://www.physics.wisc.edu/directory/gorsuch-miranda-r/
 networks:
+github-username: mirarenee
 presentations:
 ---
 
