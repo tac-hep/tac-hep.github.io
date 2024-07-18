@@ -35,6 +35,8 @@ I am a third-year graduate students interested in Higgs physics and in software 
 
 - Verena Martinez Outschoorn (UMass)
 - Rafael Coelho Lopes de Sa (UMass)
+- Wouter Verkerke (NIKHEF)
+- Paolo Calafiura (LBNL) 
 
 ### Traineeship dates
 
