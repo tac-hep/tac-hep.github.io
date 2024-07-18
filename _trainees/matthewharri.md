@@ -47,7 +47,8 @@ I currently work in the muon software group within ATLAS focused on Phase-II upg
   * Edward Moyse (University of Massachusetts, Amherst)
   * Johannes Junggeburth (University of Massachusetts, Amherst / CERN)
   * Andreas Salzburger (CERN)
-
+  * Torre Wenaus (BNL)
+    
 ### Traineeship dates
 
   * 2023-01-01 to 2025-01-01
