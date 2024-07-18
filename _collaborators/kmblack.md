@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Kevin Black
+institutionkey: wisconsin
 institution: University of Wisconsin - Madison
 e-mail: kblack@hep.wisc.edu
 github-username: kmblack

@@ -1,0 +1,81 @@
+- name: The ATLAS experiment
+  short: ATLAS
+  url: https://home.cern/science/experiments/atlas
+  description: >-
+    A general-purpose detector at the Large Hadron Collider (LHC)
+    and after significant upgrades, from 2026, at the High-Luminosity
+    Large Hadron Collider (HL-LHC).
+
+- name: The Compact Muon Solenoid (CMS) experiment
+  short: CMS
+  url: https://home.cern/science/experiments/cms
+  description: >-
+    A general-purpose detector at the Large Hadron Collider (LHC)
+    and after significant upgrades, from 2026, at the High-Luminosity
+    Large Hadron Collider (HL-LHC).
+
+- name: S2I2-HEP
+  url: http://s2i2-hep.org/
+  description: >-
+    The S2I2-HEP project prepared a strategic plan for a potential NSF Scientific
+    Software Innovation Institute (S2I2), which evolved into what became the proposal
+    to the NSF for IRIS-HEP. As part of that, the S2I2-HEP project worked closely with
+    the HEP Software Foundation to prepare a larger HEP Community White Paper (CWP)
+    describing a global roadmap for HEP Software and Computing R&D for the 2020s.
+  awards:
+    - type: OAC
+      number: 1558216
+    - type: OAC
+      number: 1558233
+    - type: OAC
+      number: 1558219
+
+- name: DASPOS
+  url: http://daspos.org/
+  description: >-
+    This project ran from 2012-2017 and did an "initial exploration of the key
+    technical problems that must be solved to provide appropriate data, software
+    and algorithmic preservation for HEP, including the contexts necessary to
+    understand, trust and reuse the data." As such, it contributed directly to
+    some of the development work performed by the [DIANA/HEP](http://diana-hep.org/)
+    project and now as part of the [Analysis Systems](/as) area of IRIS-HEP.
+  awards:
+    - type: PHY
+      number: 1247316
+
+- name: U.S. ATLAS Collaboration
+  short: USATLAS
+  url: https://po.usatlas.bnl.gov/
+  description: >-
+    This is the full collaboration of U.S. researchers
+    participating in the ATLAS experiment at the LHC.
+    Funding comes from a variety of single PI and group
+    NSF and DOE grants.
+
+- name: U.S. CMS Collaboration
+  short: USCMS
+  url: https://uscms.org/index.shtml
+  description: >-
+    This is the full collaboration of U.S. researchers
+    participating in the CMS experiment at the LHC. Funding
+    comes from a variety of single PI and group NSF and DOE
+    grants.
+
+- name: OSG
+  description: A national, distributed computing partnership for data-intensive research
+  url: https://opensciencegrid.org/
+  awards:
+    - type: OAC
+      number: 1148698
+    - type: OAC
+      number: 0621704
+
+- name: Partnership to Advance Throughput Computing
+  description: A partnership between the OSG and the Center for High Throughput Computing to advance the science of distributed high throughput computing in the US.
+  short: PATh
+  url: https://path-cc.io
+  awards:
+    - type: OAC
+      number: 2030508
+
+

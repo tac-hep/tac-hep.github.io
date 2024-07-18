@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: James Olsen
+institutionkey: princeton
 institution: Princeton University
 e-mail: jolsen@princeton.edu
 github-username: jimolsen

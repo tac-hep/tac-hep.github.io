@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Peter Elmer
+institutionkey: princeton
 institution: Princeton University
 e-mail: Peter.Elmer@cern.ch
 github-username: pelmer

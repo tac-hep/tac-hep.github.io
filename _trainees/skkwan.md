@@ -24,12 +24,12 @@ My thesis research focused on searches for exotic Higgs decays to two light neut
 
 After the GPU/FPGA training module in the TAC-HEP program, I conducted a summer project to explore and optimize implementations of an activation function (GELU) commonly used in transformer machine learning architectures, and synthesized three implementations (non-optimized, a mathematical approximation, and finally a look-up table) in Vivado HLS to estimate their resource usages. The look-up table (LUT) implementation used the fewest resources and have the lowest latency.
 
-
 ### Recent Accomplishments
 I defended my thesis in May 2024 advised by Prof. Isobel Ojalvo and am excited to continue my research with the CMS Experiment.
 
 ### Mentors 
-For the TAC-HEP summer project I worked with Adrian Alan Pol (former postdoctoral researcher with Princeton University).
+  * Jennifer Ngadiuba (Fermilab) 
+  * Adrian Pol (Princeton, IRIS-HEP), Isobel Ojalvo (Princeton)
 
 ### Traineeship dates
 I participated in the TAC-HEP program from 2022-2024.

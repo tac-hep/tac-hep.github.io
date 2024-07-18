@@ -9,13 +9,16 @@
       <div class="container page">
         <main role="main">
 
+
+  {% assign institute = site.institutes | find: "shortname", page.institutionkey %}
+
 <div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
   <div class="card" style="border: 0px solid white; padding: 5px">
   <img style="height: 250px;" src="{{page.photo}}" alt="Card image cap"> 
   </div>
   <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
   <h2>{{ page.name }}</h2> 
-  <h3><i>{{ page.institution }}</i></h3>
+  <h3><i>{{ institute.title }}</i></h3>
   </div>
 </div>  
 

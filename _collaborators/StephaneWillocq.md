@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Stephane Willocq
+institutionkey: umass-amherst
 institution: University of Massachusetts Amherst
 e-mail: willocq@physics.umass.edu
 github-username: StephaneWillocq

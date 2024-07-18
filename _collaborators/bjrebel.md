@@ -2,6 +2,7 @@
 layout: collaborator
 active: true
 name: Brian Rebel
+institutionkey: wisconsin
 institution: University of Wisconsin - Madison
 e-mail: brebel@wisc.edu
 github-username: bjrebel

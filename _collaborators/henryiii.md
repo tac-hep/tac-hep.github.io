@@ -3,6 +3,7 @@ active: true
 layout: collaborator
 e-mail: henryfs@princeton.edu
 inspire-id: Henry.F.Schreiner.1
+institutionkey: princeton
 institution: Princeton University
 name: Henry Schreiner
 photo: "/assets/images/team/Henry-Schreiner.jpg"

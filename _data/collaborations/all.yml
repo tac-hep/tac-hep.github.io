@@ -1,0 +1,42 @@
+- name: Western Advanced Training for Computational High-Energy Physics (WATCHEP)
+  short: WATCHEP
+  url: https://watchep.org
+  awards:
+    - type: DOE-CompHEP
+      number: DE-SC-0023527
+
+- name: High Energy Physics - Center for Computational Excellence
+  short: HEP-CCE
+  url: https://www.anl.gov/hep-cce
+  awards:
+    - type: DOE-CompHEP
+      number:
+
+- name: Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)
+  short: IRIS-HEP
+  url: http://iris-hep.org/
+  awards:
+    - type: OAC
+    - number: 1833650
+
+- name: CoDaS-HEP
+  url: http://codas-hep.org/
+
+- name: U.S. ATLAS Operations Program
+  url: https://po.usatlas.bnl.gov/programoffice/op.php
+  description: >-
+    This is a joint NSF/DOE project to support operations and
+    computing facilities needed for the U.S. participation in
+    the ATLAS experiment at CERN.
+  awards:
+    - type: PHY
+      number: 1624739
+
+- name: U.S. CMS Operations Program
+  url: https://uscms.org/uscms_at_work/rpo/index.shtml
+  description: >-
+    This is a joint NSF/DOE project to support operations and computing facilities
+    needed for the U.S. participation in the CMS experiment at CERN.
+  awards:
+    - type: PHY
+      number: 1624356
