@@ -12,6 +12,10 @@ website: https://www.physics.wisc.edu/directory/gorsuch-miranda-r/
 networks:
 github-username: mirarenee
 presentations:
+  - title: "Science validation of cell-based coadds in the LSST Science Pipelines: Impact of the choice of algorithms to interpolate over masked pixels on cosmology"
+    date: "Presented on 2024-05-30"
+    url: https://docs.google.com/presentation/d/1QXJ2kSY3UsRqOIzYYdc5mNhMgxr1Yz2g9TwnEO7RhzQ/edit?usp=sharing
+    meeting: "DESC Pixel-to-Object Working Group Meeting"
 ---
 
 ### Biography and Interests
