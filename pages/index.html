@@ -92,6 +92,33 @@ TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madiso
 <a href="{{ site.baseurl }}/events.html">View all past events</a>
 </div>
 
+<div class="mainpage-related mainpage-core">
+<div class="mainpage-sidebar-text">
+
+<h4>Related projects:</h4>
+{%- assign projlist = "" | split: "," -%}
+{{ " " }}
+{%- assign projs = site.data.collabcats | hash_fetch: site.data.collaborations, "id" | flat_map -%}
+{%- for proj in projs -%}
+  {%- capture projtxt -%}
+    {%- if proj.short -%}
+      [{{ proj.short }}]({{ proj.url }})
+    {%- else -%}
+      [{{ proj.name }}]({{ proj.url }})
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- assign projlist = projlist | push: projtxt -%}
+{%- endfor -%}
+
+<ul>
+<li>
+<div class="event">
+  <div class="projects">
+    {{ projlist | join: " &bull; " | markdownify }}
+  </div>
+</div>
+</li>
+</ul>
 
 </div>
 </div>

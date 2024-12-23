@@ -1,47 +1,46 @@
 ---
 permalink: /docs/new-trainee.html
 layout: default
-title: Information to add or update fellows
+title: Information to add or update trainee webpages
 pagetype: doc
 ---
 
-### Adding a New Fellow Page to TAC-HEP
+### Adding a New Trainee Page to TAC-HEP
+
+All TAC-HEP Trainees should create and then maintain a page
 
 #### TAC-HEP website
 In order to add your information, we request you to please supply a photo ( First_Name-Last_Name.jpg or .png - 320x240 pixels) and a paragraph summarizing your project’s goals.
-You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to [this](https://github.com/uwcms/tac-hep) repo.
+You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to [this](https://github.com/tac-hep/tac-hep.github.io) repo.
 
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/uwcms/tac-hep/tree/main/assets/images/team). It should be 320x240 pixels and in general should be 150kB or less.
-* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/uwcms/tac-hep/tree/main/pages/fellows). See the example below.
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/trainees folder](https://github.com/tac-hep/tac-hep.github.io/tree/main/assets/images/trainees). It should be 320x240 pixels and in general should be 150kB or less.
+* Add a "`<your github username>.md`" file to the [trainees folder in the website repository](https://github.com/tac-hep/tac-hep.github.io/tree/main/_trainees). See the example below.
 
-*Please Note*:  In the markdown file you create, ensure you set the “active” attribute to True – (i.e.  active: True).  Otherwise, your entry will not appear on our Fellows page.
+The markdown file has a part a the top (delimited by "---") called the frontmatter. This is described below. In the main body of the markdown file you should have the following sections:
 
-Be sure to include your project summary in the project_goal field.
+  * Biography and Interests - Biographical information such as where you were an undergraduate and when you started graduate school, plus information about your interests (physics, analysis, software and computing)
+  * Project - this should be a description of the project you are working on as a TAC-HEP trainee
+  * Recent Accomplishments - this may be blank ath beginning, but should eventually grow to a bullet point list of things you accomplished on your project (including links to related presentations, repositories in github, etc.)
+  * Mentors - this should be a bullet point list of your mentors (name and institution). It should include both someone at your university and someone at one of the DOE labs.
+  * Traineeship dates - date at which your traineeship began and is expected to end
 
-You can leave the “presentations” and “current_status” fields blank for now.  (Make sure to include the fields)
+
+### Frontmatter
 
 ```yml
----
-layout: fellow
-pagetype: fellow
+layout: collaborator
 shortname: <your GitHub user id>
-permalink: /fellows/<your GitHub user id>.html
-fellow-name: <Your Name>
-title: <Your Name> - TAC-HEP Fellow
+name: <Your Name>
 active: True
 dates:
   start: <start date>
   end: <end date>
-photo: /assets/images/team/<First name>-<Last name>.jpg
+photo: /assets/images/trainees/<First name>-<Last name>.jpg
 institution: <Your institution>
 e-mail: <Your email>
-focus-area: <Focus Area - ia,ssl,ssc,doma,as,osglhc>
-project_title: <Project title>
-project_goal: >
-    Short description of your project
-mentors:
-  - <Mentor Name (<Mentor Institution>)
-proposal: /assets/pdf/fellows-2022/<find-your-file>
+networks:
+  - <which of [cms|atlas|vro|dune|etc] is appropriate>
+github-username: <Your git-hub username>
 presentations:
   - title: "<Presentation Title"
     date: "Presentation Date"
@@ -50,16 +49,17 @@ presentations:
     meetingurl: <Meeting url - indico link, etc.>
     recordingurl: <Recording url> (Optional)
     focus-area: <Focus Area - ia,ssl,ssc,doma,as,osglhc>
-current_status: >
-  A placeholder for status updates
-github-username: <Your git-hub username>
 ---
 ```
 
-### Dates
-Date format for start and end dates should be -- YYYY-MM-DD -- i.e. 2021-12-31
+### Notes
+
+  * In the markdown file you create, ensure you set the “active” attribute to True – (i.e.  active: True).  Otherwise, your entry will not appear on our Trainees page.
+  * The date format for start and end dates should be -- YYYY-MM-DD -- i.e. 2021-12-31
 
 ### Presentations
+
+When you start, you just need to include the "presentations:" line. The subsequent indented lines above can be omitted. They are included above so that you can see the structure when you have a presentation to add.
 
 The meaning of the fields is the following:
 
