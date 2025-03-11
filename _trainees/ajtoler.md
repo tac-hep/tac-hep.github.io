@@ -6,7 +6,9 @@ institution: University of Massachusetts Amherst
 start_date: "2023-07-01"
 end_date: "2025-06-30"
 training_modules:
+- Software Engineering for Scientific Computing
 - GPU training module
+- FPGA training module
 e-mail: atoler@umass.edu
 github-username: ajtoler
 photo: "/assets/images/trainees/Andrew-Toler.jpg"
@@ -23,7 +25,7 @@ presentations:
 I am a third year graduate student currently progressing towards a PhD at the UMass Amherst on the ATLAS Experiment. 
 
 ### Project 
-I am contributing to the Level 0 Monitored Drift Tube (L0MDT) effort through simulation and performance studies and support the firmware design, focusing on the impact of inefficiencies in the detectors and studying possible updates to improve robustness. Seperately, I am also beginning to contribute to the displaced Heavy Neutral Lepton (right-handed sterile neutrino) analysis.
+I am contributing to the L0MDT effort within the ATLAS Muon Spectrometer, specifically studying firmware design performance via simulations. To do this I study the impact of inefficiencies within the detector and implement updates to the logic that can improve the robustness of the MS trigger. So far multiple performance studies have been created with ongoing effort to implement Hough transforms to compensate for subdetector inefficiencies
 
 ### Recent Accomplishments
   * Passed written component of doctoral qualifying
