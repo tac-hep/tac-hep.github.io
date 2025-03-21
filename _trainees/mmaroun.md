@@ -20,20 +20,20 @@ presentations:
 
 ### Biography and Interests
 
-I am a third-year graduate students interested in Higgs physics and in software for data analysis in HEP. I've been involved in the validation and training of the new _CP Algorithms_ tools, which is the new standard ATLAS software for application of calibration corrections and systematic variations in analysis frameworks. More recently, I started developing a experiment-independent project with the ROOT team for the implementation of Neural Simulation-Based Inference in RooFit and to address the more general challenges of creating Asimov (expected) results in unbinned analyses.
+I am a fourth-year graduate student interested in Higgs physics and in software for data analysis in HEP. I've been involved in the validation and training of the new _CP Algorithms_ tools, which is the new standard ATLAS software for application of calibration corrections and systematic variations in analysis frameworks. More recently, I have been working in an experiment-independent project with the ROOT team for the development and implementation of software for statistical analysis from first-principle optimal observables in RooFit and to address the more general challenges of creating Asimov (expected) results in unbinned analyses.
 
 ### Project 
 
 - Implementation of _CP Algorithms_ in ATLAS analysis frameworks
 - Text-based configuration for _CP Algorithms_-based analysis frameworks
-- Software infrastructure for neural simulation-based inference in ROOT
+- Software infrastructure for analysis in ROOT
 - Tools for Asimov construction in unbinned analyses
 
 ### Recent Accomplishments
 
 - Performed numerical validation of the _CP Algorithms_ tools
 - Tutorial lectures on the usage of the _CP Algorithms_ tools
-- Implementation of Neural Simulation-Based Inference analysis in RooFit
+- Development and implementation of software for statistical analysis in RooFit
 
 ### Mentors
 
