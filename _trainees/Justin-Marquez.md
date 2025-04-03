@@ -4,7 +4,7 @@ active: true
 shortname: jemarq04
 name: Justin Marquez
 start_date: "2025-01-21"
-end_date: "2027-01-21"
+end_date: ""
 photo: /assets/images/trainees/Justin-Marquez.jpg
 institution: University of Wisconsin-Madison
 training_modules:
