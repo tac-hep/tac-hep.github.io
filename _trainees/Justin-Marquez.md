@@ -13,10 +13,9 @@ e-mail: justin.marquez@wisc.edu
 networks:
   - cms
 github-username: jemarq04
+website: https://www.physics.wisc.edu/directory/marquez-justin/
 presentations:
 ---
-
-Project - this should be a description of the project you are working on as a TAC-HEP trainee
 
 ### Biography and Interests
 
