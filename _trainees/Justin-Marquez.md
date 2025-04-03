@@ -7,6 +7,7 @@ start_date: "2025-01-21"
 end_date: ""
 photo: /assets/images/trainees/Justin-Marquez.jpg
 institution: University of Wisconsin-Madison
+institutionkey: wisconsin
 training_modules:
 - FPGA training module
 e-mail: justin.marquez@wisc.edu
