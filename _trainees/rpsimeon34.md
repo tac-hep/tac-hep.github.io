@@ -18,7 +18,7 @@ github-username: rpsimeon34
 
 ### Biography and Interests
 
-I am a second-year graduate student at the University of Wisconsin - Madison, working in the CMS group and advised by Professor Sridhara Dasu.
+I am a fourth-year graduate student at the University of Wisconsin - Madison, working in the CMS group and advised by Professor Sridhara Dasu.
 
 ### Project
 
@@ -29,6 +29,12 @@ The work involves integrating with the CMS Tier-2 at UW-Madison and the Center f
 
 - Created a [repository of annotated examples](https://github.com/rpsimeon34/wisc-af-examples) for using the Analysis Facility
 - Created the [cowtools](https://github.com/rpsimeon34/cowtools) package for off-the-shelf distributed computing tools for our particular Analysis Facility
+
+### Presentations
+
+- US CMS Analysis Facilities Meeting; Introduction to the Wisconsin Analysis Facility
+  - [Meeting agenda (protected link)](https://indico.cern.ch/event/1578007/)
+  - [Slides](https://pages.hep.wisc.edu/~rsimeon/presentations/WisconsinAF_RyanSimeon.pdf)
 
 ### Mentors
  * Sridhara Dasu (University of Wisconsin - Madison)
