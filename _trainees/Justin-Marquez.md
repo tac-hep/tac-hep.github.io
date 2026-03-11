@@ -9,7 +9,9 @@ photo: /assets/images/trainees/Justin-Marquez.jpg
 institution: University of Wisconsin-Madison
 institutionkey: wisconsin
 training_modules:
-- FPGA training module
+- FPGA training
+- Software Engineering for Scientific Computing
+- GPU training
 e-mail: justin.marquez@wisc.edu
 networks:
   - cms
@@ -22,10 +24,16 @@ presentations:
 
 ### Project
 
-I am beginning work on improving pileup simulation performance with CMS with Matthew Herndon at University of Wisconsin-Madison and Kevin Pedro at Fermilab. To do so, I am exploring multiple approaches to improve resources (for storage, processing, etc.) and timing. Current pileup events are created using FullSim and are added to signal events later on using a process known as “pre-mixing.” Accurate simulation of pileup within CMS events is crucial, and current estimates of storage for these pileup events is orders of magnitude larger than what is currently held for Runs 2 and 3. Primary options for improving pileup simulation include (1) generation/simulation of pileup events on-the-fly using FullSim, rather than stored and retrieved at a later date, (2) using FastSim for on-the-fly pileup simulation, (3) utilizing the same pre-mixing process but at the generator level, and (4) using generative machine learning to produce the equivalent of fully simulated pre-mixed events.
+I am conducting validation studies on pileup simulation performance with CMS with Matthew Herndon at University of Wisconsin-Madison and Kevin Pedro
+at Fermilab. Currently, pileup events are created using FullSim and are added to signal events later using a process known as "pre-mixing." This
+requires large amounts of storage for the pileup events until they are used for simulation, and as we move towards the High Luminosity LHC we need to
+explore alternatives to this procedure to save on storage space, among other crucial improvements.
 
-The first two options eliminate the need for storing pileup events at all while the third option would reduce the size of the stored events significantly. The final option requires the most development, but could be a very promising alternative to current pre-mixing processing. So far, I have studied these options, reviewed and tested current standard CMSSW workflows for creating pileup samples, and tested the HEPScore23 benchmarking tool for measuring CPU performance. I have begun working on reviewing current CMSSW code and investigating possible updates to muon system pre-mixing to match other subdetectors' plugins.
-
+Our goal with this study is to validate mixing FullSim signal events with FastSim pileup events, allowing pileup to be generated on-the-fly. This
+would eliminate the need for any pileup event storage entirely. Accurate simulation of pileup within CMS events is crucial, so this alternative needs
+to be checked against the current procedure, which has already been thoroughly studied to ensure physical accuracy. For this study, I focus on the
+validation of hits in the muon system using both MUO tag & probe and the muon DPG (detector performance group) ntuples to compare standard and hybrid
+mixing procedures.
 
 ### Recent Accomplishments
 
