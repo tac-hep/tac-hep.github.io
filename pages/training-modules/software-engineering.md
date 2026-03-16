@@ -29,56 +29,56 @@ work (the web is async).
 
 ### Week 1: Intro
 
-- [Introductions and motivation](https://henryiii.github.io/se-for-sci/content/week1/intro.html)
-- [Unix setup and tools](https://henryiii.github.io/se-for-sci/content/week1/setup.html)
-- [Version control overview](https://henryiii.github.io/se-for-sci/content/week1/vcs.html)
-- [Version control quick intro](https://henryiii.github.io/se-for-sci/content/week1/vcs.html#version-control-quick-intro)
-- [Programming basics](https://henryiii.github.io/se-for-sci/content/week1/programming_basics.html)
-- [Programming/style general practices](https://henryiii.github.io/se-for-sci/content/week1/practices.html)
-- [Code cleanup example](https://henryiii.github.io/se-for-sci/content/week1/cleanup_bessel.html)
+- [Introductions and motivation](https://henryiii.github.io/se-for-sci/content/week01/intro.html)
+- [Unix setup and tools](https://henryiii.github.io/se-for-sci/content/week01/setup.html)
+- [Version control overview](https://henryiii.github.io/se-for-sci/content/week01/vcs.html)
+- [Version control quick intro](https://henryiii.github.io/se-for-sci/content/week01/vcs.html#version-control-quick-intro)
+- [Programming basics](https://henryiii.github.io/se-for-sci/content/week01/programming_basics.html)
+- [Programming/style general practices](https://henryiii.github.io/se-for-sci/content/week01/practices.html)
+- [Code cleanup example](https://henryiii.github.io/se-for-sci/content/week01/cleanup_bessel.html)
 
-### Week 2: Testing
+### Week 2: Version Control
 
-- [Intro to testing](https://henryiii.github.io/se-for-sci/content/week2/testing.html)
-- [Intro to pytest](https://henryiii.github.io/se-for-sci/content/week2/pytest.html)
-- [Test Driven Development (TDD)](https://henryiii.github.io/se-for-sci/content/week2/tdd.html)
-- [Logging & Debugging](https://henryiii.github.io/se-for-sci/content/week2/debugging.html)
+- [Version Control](https://henryiii.github.io/se-for-sci/content/week02/git.html)
 
-### Week 3: Object Oriented design
+### Week 3: Testing
 
-- [Intro to Object Oriented Programming (OOP)](https://henryiii.github.io/se-for-sci/content/week3/introoo.html)
-- [Object Oriented Design](https://henryiii.github.io/se-for-sci/content/week3/oodesign.html)
+- [Intro to testing](https://henryiii.github.io/se-for-sci/content/week03/testing.html)
+- [Intro to pytest](https://henryiii.github.io/se-for-sci/content/week03/pytest.html)
+- [Test Driven Development (TDD)](https://henryiii.github.io/se-for-sci/content/week03/tdd.html)
+- [Logging & Debugging](https://henryiii.github.io/se-for-sci/content/week03/debugging.html)
 
-### Week 4: Design Patterns
+### Week 4: Continuous Integration
 
-- [Design patterns](https://henryiii.github.io/se-for-sci/content/week4/designpatt.html)
-- [Functional programming](https://henryiii.github.io/se-for-sci/content/week4/functional.html)
+- [Continuous Integration](https://henryiii.github.io/se-for-sci/content/week04/ci.html)
+- [Continuous Deployment](https://henryiii.github.io/se-for-sci/content/week04/cd.html)
+- [Generating documentation](https://henryiii.github.io/se-for-sci/content/week04/docs.html)
 
-### Week 5: Static Typing
+### Week 5: Packaging and Quality Control
 
-- [Static Typing](https://henryiii.github.io/se-for-sci/content/week5/typing.html)
+- [Packaging and quality control](https://henryiii.github.io/se-for-sci/content/week05/packaging.html)
+- [Using packages](https://henryiii.github.io/se-for-sci/content/week05/using_packages.html)
+- [Making a Package](https://henryiii.github.io/se-for-sci/content/week05/making_a_package.html)
+- [Pre-commit](https://henryiii.github.io/se-for-sci/content/week05/precommit.html)
+- [Task runners](https://henryiii.github.io/se-for-sci/content/week05/task_runners.html)
 
-### Week 6: Version Control
+### Week 6: Object Oriented design
 
-- [Version Control](https://henryiii.github.io/se-for-sci/content/week6/git.html)
+- [Intro to Object Oriented Programming (OOP)](https://henryiii.github.io/se-for-sci/content/week06/introoo.html)
+- [Object Oriented Design](https://henryiii.github.io/se-for-sci/content/week06/oodesign.html)
 
-### Week 7: Packaging and Quality Control
+### Week 7: Design Patterns
 
-- [Packaging and quality control](https://henryiii.github.io/se-for-sci/content/week7/packaging.html)
-- [Using packages](https://henryiii.github.io/se-for-sci/content/week7/using_packages.html)
-- [Making a Package](https://henryiii.github.io/se-for-sci/content/week7/making_a_package.html)
-- [Pre-commit](https://henryiii.github.io/se-for-sci/content/week7/precommit.html)
-- [Task runners](https://henryiii.github.io/se-for-sci/content/week7/task_runners.html)
+- [Design patterns](https://henryiii.github.io/se-for-sci/content/week07/designpatt.html)
+- [Functional programming](https://henryiii.github.io/se-for-sci/content/week07/functional.html)
 
-### Week 8: Continuous Integration
+### Week 8: Static Typing
 
-- [Continuous Integration](https://henryiii.github.io/se-for-sci/content/week8/ci.html)
-- [Continuous Deployment](https://henryiii.github.io/se-for-sci/content/week8/cd.html)
-- [Generating documentation](https://henryiii.github.io/se-for-sci/content/week8/docs.html)
+- [Static Typing](https://henryiii.github.io/se-for-sci/content/week08/typing.html)
 
 ### Week 9: Intro to Compilation
 
-- [Using Compiled Languages](https://henryiii.github.io/se-for-sci/content/week9/Compiled_Languages.html)
+- [Using Compiled Languages](https://henryiii.github.io/se-for-sci/content/week09/Compiled_Languages.html)
 
 ### Week 10: Profiling
 
@@ -110,4 +110,4 @@ work (the web is async).
 - [WebAssembly](https://henryiii.github.io/se-for-sci/content/week13/webassembly.html)
 - [Useful shell tools and tricks](https://henryiii.github.io/se-for-sci/content/week13/shell.html)
 
-Taught by [Henry Schreiner](/collaborators/henryiii) (Princeton University) in Fall, 2022.
+Taught by [Henry Schreiner](/collaborators/henryiii) (Princeton University) in Fall, 2022 and Fall, 2023.

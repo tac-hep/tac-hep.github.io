@@ -10,7 +10,7 @@ title: TAC-HEP Events
 <br>
 Events that TAC-HEP team is organizing
 
-{% assign yearlist = "2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016" | split: ", " %}
+{% assign yearlist = "2027, 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016" | split: ", " %}
 {% assign monthlist= "12, 11, 10, 09, 08, 07, 06, 05, 04, 03, 02, 01" | split: ", " %}
 
 {% comment %}
@@ -18,8 +18,6 @@ Go through the list and produce a breakdown of the events in reverse
 chronological order, grouped by months
 {% endcomment %}
 
-
-{% comment %}
 {%- include get_all_events.html -%}
 
 {% assign grouping = all_events | group_by_exp: "item", "item.startdate | date: '%B, %Y'"%}
@@ -37,5 +35,4 @@ chronological order, grouped by months
     {% endfor %}
   </ul>
 {% endfor %}
-{% endcomment %}
 

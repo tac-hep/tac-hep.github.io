@@ -5,70 +5,87 @@
 {% endif %}
 
 {% include layout_header_navbar.html %}
-    <div id="container">
-      <div class="container page">
-        <main role="main">
+<div id="container">
+  <div class="container page">
+    <main role="main">
 
+      {% assign institute = site.institutes | find: "shortname", page.institutionkey %}
 
-  {% assign institute = site.institutes | find: "shortname", page.institutionkey %}
-
-<div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
-  <div class="card" style="border: 0px solid white; padding: 5px">
-  <img style="height: 250px;" src="{{page.photo}}" alt="Card image cap"> 
-  </div>
-  <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
-  <h2>{{ page.name }}</h2> 
-  <h3><i>{{ institute.title }}</i></h3>
-  </div>
-</div>  
-
-<div>
-{% if page.website and page.website != blank %}
-<b>Website:</b> <a href="{{page.website}}">{{page.website}}</a>
-<br>
-{% endif %}
-{% if page.e-mail and page.e-mail != blank %}
-<b>Email:</b> <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
-<br>
-{% endif %}
-{% if page.github-username and page.github-username != blank %}
-<b>GitHub:</b> <a href="https://github.com/{{ page.github-username }}">https://github.com/{{ page.github-username }}</a>
-{% endif %}
-<br><br><br>
-</div>
-
-<div>
-  {{ content }}
-</div>
-
-{% comment %}
-<h3>Presentations related to HSF-India</h3>
-{% assign prescount = 0 %}
-
-{%- assign presentationlist = page.presentations | default: empty-list | sort: "date" | reverse -%}
-<h4>{{page.name}} - {{page.institution}}</h4>
-{%- if presentationlist.size > 0 -%}
-  <ul>
-    {%- for talk in presentationlist -%}
-      {%- assign prescount = prescount | plus: "1" -%}
-      <li>
-        {%- include print_pres.html talk=talk -%}
-      </li>
-    {%- endfor- %}
-  </ul>
-{%- else -%}
-  <p>No presentations found.</p>
-{%- endif -%}
-
-Total presentations: {{ prescount }}.
-{% endcomment %}
-
-        </main>
+      <div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
+        <div class="card" style="border: 0px solid white; padding: 5px">
+          <img style="height: 250px;" src="{{page.photo}}" alt="Card image cap">
+        </div>
+        <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
+          <h2>{{ page.name }}</h2>
+          <h3><i>{{ institute.title }}</i></h3>
+        </div>
       </div>
-      {% include_cached footer.html %}
-    </div>
 
-  {% include_cached layout_analytics.html %}
+      <div>
+        {% if page.website and page.website != blank %}
+          <b>Website:</b> <a href="{{page.website}}">{{page.website}}</a>
+          <br>
+        {% endif %}
+        {% if page.e-mail and page.e-mail != blank %}
+          <b>Email:</b> <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
+          <br>
+        {% endif %}
+        {% if page.github-username and page.github-username != blank %}
+          <b>GitHub:</b> <a href="https://github.com/{{ page.github-username }}">https://github.com/{{ page.github-username }}</a>
+        {% endif %}
+        <br><br><br>
+      </div>
 
-  </body>
+      {% if page.start_date %}
+        <div>
+          <b>Traineeship Dates:</b> {{ page.start_date }}
+
+          {% assign today = 'now' | date: "%Y-%m-%d" %}
+          {% assign end_date = page.end_date | default: '' %}
+
+          {% if end_date == '' %}
+            - Ongoing
+            <br>
+            <b>Status:</b> Current Trainee
+          {% else %}
+            - {{ end_date }}
+            <br>
+            {% if end_date > today %}
+              <b>Status:</b> Current Trainee
+            {% else %}
+              <b>Status:</b> Former Trainee
+            {% endif %}
+          {% endif %}
+          <br><br>
+        </div>
+      {% endif %}
+
+      <div>
+        <b>Training Modules:</b>
+        <ul>
+          {% for module in page.training_modules %}
+            {% assign module_slug = module | slugify %}
+            {% assign module_page = site.pages | where: "path", "pages/training-modules/" | where_exp: "item", "item.url contains module_slug" | first %}
+            
+            {% if module_page %}
+              <li><a href="{{ module_page.url }}">{{ module }}</a></li>
+            {% else %}
+              <li>{{ module }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        {{ content }}
+      </div>
+
+    </main>
+  </div>
+  {% include_cached footer.html %}
+</div>
+
+{% include_cached layout_analytics.html %}
+
+</body>
 </html>
