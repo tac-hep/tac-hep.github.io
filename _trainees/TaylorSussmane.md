@@ -5,7 +5,7 @@ shortname: taylorsussmane
 name: Taylor Sussmane
 start_date: "2025-06-01"
 end_date: ""
-photo: /assets/images/trainees/Taylor-Sussmane.jpg
+photo: /assets/images/trainees/Taylor-Sussmane.jpeg
 institution: University of Wisconsin Madison
 training_modules:
 - Software Engineering for Scientific Computing
