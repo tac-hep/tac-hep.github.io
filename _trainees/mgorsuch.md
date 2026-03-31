@@ -4,11 +4,11 @@ active: true
 name: Miranda Gorsuch
 institution: University of Wisconsin-Madison
 start_date: "2023-07-01"
-end_date: ""
+end_date: "2025-07-01"
 training_modules:
 - GPU training module
 - Software Engineering training module
-- FPGA training module (in progress)
+- FPGA training module
 institutionkey: wisconsin
 e-mail: mrgorsuch@wisc.edu
 photo: "/assets/images/trainees/Miranda-Gorsuch.jpg"
@@ -22,7 +22,7 @@ presentations:
 
 ### Biography and Interests
 
-I am a third year graduate student working in the Observational Cosmology group at University of Wisconsin - Madison.
+I am a PhD candidate working in the Observational Cosmology group at University of Wisconsin - Madison. I'm an in-kind contributor for the Vera C. Rubin Observatory, focusing on validating the behavior of image coaddition and shear calibration algorithms. Non-academic interests include violin, piano, painting, and reading.
 
 ### Project
 
@@ -49,6 +49,8 @@ on survey-scale LSST data release processing.
 - Presentation (September 2024): [Rubin Weak Lensing Science Unit Meeting](https://docs.google.com/presentation/d/17QidHpdwHkf4kYHuGC6_G_0Xl2FdhehLQwDxkXznfNo/edit?usp=sharing)
 - Presentation (January 2025): [Preliminary Exam](https://docs.google.com/presentation/d/1315Ez2M7VTA3iSbErIMgpJ0DnTjK-Vg-CVq9XcRsAD4/edit?usp=sharing)
 - Technote documentation (public draft): [Getting Started with Cell-Based Coadds](https://sitcomtn-137.lsst.io/v/u-mirarenee-init/index.html)
+- Technote documentation (published): [Testing the implementation of Metadetection and Cell-Based Coadds on Abell 360 LSSTComCam data](https://sitcomtn-162.lsst.io/)
+- Presentation (July 2025): [DESC Pixel-to-Object Working Group](https://docs.google.com/presentation/d/1NpB-j67hYNQ89Z_lnQw7mEJKZk1oaz4AkYnYP93_o4U/edit?usp=sharing)
 
 ### Mentors
 - Keith Bechtol (Univeristy of Wisconsin - Madison, advisor)
